@@ -5,11 +5,117 @@
 		<title>Quote System Overview</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            /* Add this style for button alignment */
+            .button {
+                /* Adjust the left margin to shift the button slightly to the left */
+                margin-left: -27px; /* Adjust this value as needed */
+            }
+        </style>
+    </head>
 	</head>
-	<body class="is-preload">
+    <body>
+        <section id="header">
+            <div class="inner">
+                <ul>
+                    <li><a href="../" class="button">Back</a></li>
+                </ul>
+                <header>
+                    <h1><b>Quote System</h1></b>
+                </header>
 
+                <header class="major">
+                    <h2>Video Demonstration</h2>
+                </header>
+                <div class="container video-container">
+                    <video controls autoplay muted loop>
+                        <source src="/assets/videos/QuoteSystem.mp4">
+                        Your browser does not support mp4 files.
+                    </video>
+                </div>
+                <br>
+                <br>
+                <br>
+                <header class="major">
+                    <h2>Description</h2>
+                </header>
+                <p>
+                    This was a collaborative project for my Software Engineering class at Northern Illinois University. As a 4 person group we were given the task of creating a quote system using any stack we would like.
+                </p>
+                <p>
+                    <b><u>
+                    The problem statement we were given was to create the following 4 interfaces
+                    </b></u>
+                    <br>
+                    <strong>
+                        1. Sales Associate Interface: 
+                    </strong>
+                    Create a user-friendly web tool allowing sales representatives to input, edit, and email quotes linked to existing customer details.
+                    <br>
+                    <strong>
+                        2. Headquarters Interface: 
+                    </strong>
+                    Develop an in-house system for managing, finalizing, applying discounts, and emailing completed quotes to customers.
+                    <br>
+                    <strong>
+                        3. Purchase Order Processing:
+                    </strong>
+                    Build an interface converting quotes to purchase orders, calculating final amounts, external order processing, and handling sales associate commissions.
+                    <br>
+                    <strong>
+                        4. Administrative Tools:
+                    </strong>
+                    Construct an admin interface managing sales representative data, enabling search and view functions for quotes based on various criteria.
+                </p>
+                <p>
+                    <b><u>
+                    The stack used to create the project
+                    </b></u>
+                    <br>
+                    <strong>
+                        Python:
+                    </strong>
+                    Python served as the primary programming language for the project, enabling robust backend development. It was used for implementing core functionalities, handling logic, and integrating different components of the system.
+                    <br>
+                    <strong>
+                        Flask: 
+                    </strong>
+                    Flask, a lightweight and versatile web framework in Python, was employed to build the web applications. It facilitated the creation of the various interfaces—Sales Associate, Headquarters, Purchase Order Processing, and Administrative Tools. Flask provided routing capabilities, request handling, and integration with other technologies.
+                    <br>
+                    <strong>
+                        Jinja:  
+                    </strong>
+                    Jinja templating engine, integrated with Flask, was used for generating dynamic HTML content. It allowed for seamless integration of Python code within HTML templates, enabling the creation of dynamic web pages. Jinja aided in rendering data from the backend to frontend interfaces, enhancing user interactivity and data presentation.
+                    <br>
+                    <strong>
+                        Bootstrap: 
+                    </strong>
+                    Bootstrap, a front-end framework, played a crucial role in designing responsive and visually appealing user interfaces.
+                    <br>
+                    <strong>
+                        SQLite:
+                    </strong>
+                    SQLite was employed as the relational database management system for the project. It served as the backend database for storing and managing data related to customer information, quotes, sales associates, and other relevant records.
+                </p>
+
+                <br>
+                <br>
+                <br>
+
+                <header class="major">
+                    <h2>Link to the code</h2>
+                </header>
+                <ul>
+                    <li><a href="https://github.com/TerryKucala/QuoteSystem/tree/main" class="button">Code</a></li> 
+                </ul>
+
+                <ul>
+                    <li><a href="../" class="button">Back</a></li>
+                </ul>
+
+            </div>
+        </section>
     </body>
-
 </html>

@@ -25,3 +25,27 @@
 	body.is-preload #header:after {
 		opacity: 0;
 	}
+
+	.video-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh; /* Adjust the height as needed */
+		margin: 0;
+	}
+	
+	/* Style the video container */
+	.video-container {
+		max-width: 750px; /* Set the maximum width */
+		width: 100%;
+		margin: 0 auto; /* Center the container horizontally */
+	}
+	
+	/* Style the video itself */
+	.video-container video {
+		pointer-events: auto;
+		max-width: 100%; /* Ensure the video doesn't exceed its container */
+		height: auto;
+		display: block;
+		width: 100%; /* Adjust the width to fit the container */
+	}
