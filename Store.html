@@ -2,17 +2,134 @@
 
 <html>
 	<head>
-		<title>Electronic Store Overview</title>
+		<title>Quote System Overview</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-        <video controls autoplay muted loop width="750">
-            <source src="/assets/videos/ElectronicStore.mp4">
-            Your browser does not support mp4 files.
-        </video>
-    </body>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            body {
+                text-align: center;
+            }
+            .container {
+                text-align: left; 
+            }
+            p {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1100px;
+            }
+			ul {
+                text-align: left;
+                margin-left: 50px;
+                margin-right: auto;
+                max-width: 1000px;
+			}
+            ol {
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1000px;
+            }
+        </style>
+    </head>
 
+    <body>
+        <section id="header">
+            <div class="inner">
+                
+                <a href="../" class="button">Back</a>
+				<br>
+				<br>
+                
+                <header>
+                    <h1><b>Electronic Store</h1></b>
+                </header>
+
+			</div>
+		</section>
+		<section id="two" class="main style2">
+			<div>
+
+			<header class="major">
+				<h2>Video Demonstration</h2>
+			</header>
+			<div class="container video-container">
+				<video controls autoplay muted loop>
+					<source src="/assets/videos/ElectronicStore.mp4">
+					Your browser does not support mp4 files.
+				</video>
+			</div>
+			<br>
+			<br>
+			<br>
+			<header class="major">
+				<h2>Description</h2>
+			</header>
+			<p>
+				This was a collaborative project for my Databases course at Northern Illinois University. 
+				In a group we were given the goal of creating an online store using what we learned on SQL to store data and print it on a webpage.
+				We had to create a customer interface and an employee interface.
+			</p>
+			<p>
+				
+				<b><u>The goals of this project</b></u>
+				<ol>
+				<li><strong>
+					Inventory Management: 
+				</li></strong>
+				<ul>
+					<li>Display a list of products and their quantities in stock.</li>
+					<li>Showcase available products with details on individual items.</li>
+					<li>Include an option to add products to a shopping cart from the product details page.</li>
+				</ul>
+
+				<li><strong>
+					Shopping Cart: 
+				</li></strong>
+				<ul>
+					<li>Each user has a shopping cart to add items for purchase.</li>
+					<li>Users can view, modify (remove or change quantities), and submit their orders.</li>
+					<li>Store state information (e.g., in a database, session variables) to maintain cart contents.</li>
+					<li>Once an order is submitted, associate the items with the order and reset the cart.</li>
+				</ul>
+
+				<li><strong>
+					Checkout:
+				</li></strong>
+				<ul>
+					<li>Checkout page for users to safely enter shipping and fake billing information.</li>
+					<li>Display the total value of items in the cart and allow users to finalize their order.</li>
+				</ul>
+
+				<li><strong>
+					Order Handling:
+				</li></strong>
+				<ul>
+					<li>When an order is placed, store order details in the database.</li>
+					<li>Orders start as "Processing" and can be updated by store workers.</li>
+					<li>Generate three views:</li>
+						<ul>
+							<li>User order tracking: Allows users to check their order status, tracking numbers, and total amounts paid.</li>
+							<li>List of outstanding orders: Helps employees know which orders need to be shipped.</li>
+							<li>Order fulfillment page: Enables employees to view individual orders and mark them as shipped.</li>
+						</ul>
+				</ul>
+				</ol>
+			</p>
+		</section>
+
+                <!--<header class="major">
+                    <h2>Link to the code</h2>
+                </header>-->
+
+			<section id="footer">
+				<p>No link to the code can be provided at this time since others from NIU would be able to use it for thier projects but I can show it off to anyone interested.</p>
+				<a href="../" class="button">Back</a>
+			</section>
+			
+        </div>	
+	</section>
+    </body>
 </html>
